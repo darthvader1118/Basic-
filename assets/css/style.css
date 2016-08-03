@@ -39,7 +39,7 @@ body{
     padding-left: 0px;
     
     background-image: url("../../images/swirl.png");
-    height: 65%;
+    height: 75%;
 }
 
 #description{
@@ -81,4 +81,21 @@ p.lor{
 .des{
     width: 960px;
     background-image: 
+}
+#flag{
+    background-color: #666666;
+    color: white;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    height: 30px;
+    width: 100%;
+    padding-top: 16px;
+    border-style: solid;
+    border-color: #4aaaa5;
+
+
+}
+h2{
+    text-align: center;
 }
