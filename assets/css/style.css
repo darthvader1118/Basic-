@@ -1,15 +1,32 @@
 #Name{
 	font-family: 'Georgia', Times, 'Times New Roman', serif;
-	float: left;
-	background-color: #4aaaa5;
-	color: white;
-	font-size: 40px;
-	margin-left: 20px;
+	
 }
-
+#fullname{
+    float: left;
+    background-color: #4aaaa5;
+    color: white;
+    font-size: 40px;
+    margin-left: 20px;
+    border-color: #cccccc;
+    padding: 5px;
+}
+#header{
+    margin-bottom: 0px;
+    height: 42px;
+    padding-bottom: 8px;
+    border-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: #bdbdbd;
+}
 
 #menu{
 	float: right;
+
+}
+li{
+    float: right;
+    color: #cccccc;
 
 }
 body{
@@ -18,12 +35,24 @@ body{
 }
 #background{
 	clear: both;
-	border-color: black;
+	
+    padding-left: 0px;
+    
+    background-image: url("../../images/swirl.png");
+    height: 65%;
+}
+
+#description{
+    background-color: white;
+    border-color: #cccccc;
     border: 1px;
     border-style: solid;
-    padding-left: 0px;
-    margin-right: 90px;
+    height: 140px;
+    width: 853px;
     margin-left: 20px;
+    word-wrap: break-word;
+
+
 }
 h1.about{
 	font-size: 30px;
@@ -38,8 +67,18 @@ h1.about{
     margin-right: 14px;
     margin-left: 14px;
     color: #4aaaa5;
+
+
+    
+
 }
 p.lor{
 	margin-left: 14px;
     margin-right: 14px;
+
+    
+}
+.des{
+    width: 960px;
+    background-image: 
 }
