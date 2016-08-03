@@ -40,6 +40,11 @@ body{
     
     background-image: url("../../images/swirl.png");
     height: 75%;
+    overflow: inherit;
+    position: relative;
+    
+    height: 721.5;
+
 }
 
 #description{
@@ -51,6 +56,14 @@ body{
     width: 853px;
     margin-left: 20px;
     word-wrap: break-word;
+    z-index: 1;
+    float: left;
+    overflow: auto;
+    position: absolute;
+    top: 15%;
+    
+    width: 488.547;
+    height: 311px;
 
 
 }
@@ -66,7 +79,9 @@ h1.about{
     border-right-width: 0px;
     margin-right: 14px;
     margin-left: 14px;
-    color: #4aaaa5;
+    color: #4aaaa5;    
+    margin-top: 34px;
+
 
 
     
@@ -75,6 +90,8 @@ h1.about{
 p.lor{
 	margin-left: 14px;
     margin-right: 14px;
+    margin-top: 14px;
+    word-wrap: break-word;
 
     
 }
@@ -90,7 +107,8 @@ p.lor{
     bottom: 0px;
     height: 30px;
     width: 100%;
-    padding-top: 16px;
+    padding-top: 12px;
+    border-top-width: 10px;
     border-style: solid;
     border-color: #4aaaa5;
 
